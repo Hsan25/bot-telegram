@@ -19,7 +19,7 @@ start();
 bot.start((ctx) => {
   const context = ctx.update.message;
   const name = context.from.username;
-  ctx.reply(`Selamat datang ${name} di BOT kami`);
+  ctx.reply(`Selamat datang ${name} di BOT kami!!`);
 });
 
 bot.command("img", (ctx) => {
