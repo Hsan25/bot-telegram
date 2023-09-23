@@ -9,7 +9,7 @@ const app = express();
 
 const port = 3000;
 
-const webhookDomain = "https://e251-116-206-14-16.ngrok.io";
+const webhookDomain = "https://bot-telegram-gilt.vercel.app";
 // Set the bot API endpoint
 async function start() {
   app.use(await bot.createWebhook({ domain: webhookDomain }));
